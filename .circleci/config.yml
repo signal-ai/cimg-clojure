@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  cimg: circleci/cimg@0.3.0
+  cimg: circleci/cimg@0.6.5
 
 workflows:
   main-wf:
@@ -14,7 +14,7 @@ workflows:
             branches:
               ignore:
                 - main
-          context: 
+          context:
             - slack-notification-access-token
             - slack-cimg-notifications
             - cimg-docker-image-building
@@ -30,4 +30,3 @@ workflows:
             - slack-cimg-notifications
             - cimg-docker-image-building
             - cimg-docker-image-publishing
-            
