@@ -1,6 +1,6 @@
 # vim:set ft=dockerfile:
 
-FROM 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11.3-openjdk-21.0-node
+FROM 166248964328.dkr.ecr.us-east-1.amazonaws.com/cimg-clojure:1.11.3-openjdk-21.0-node
 
 LABEL maintainer="CircleCI Community & Partner Engineering Team <community-partner@circleci.com>"
 

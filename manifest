@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-namespace=166248964328.dkr.ecr.eu-west-1.amazonaws.com
+namespace=166248964328.dkr.ecr.us-east-1.amazonaws.com
 repository=cimg-clojure
 parent=openjdk
 variants=(node browsers)
