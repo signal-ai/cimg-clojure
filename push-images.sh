@@ -30,3 +30,9 @@ docker tag 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11.3-open
 docker tag 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11-openjdk-17.0-browsers 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11-browsers
 docker push 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11-browsers
 docker push 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11.3-browsers
+docker push 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11-openjdk-21.0
+docker push 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11.3-openjdk-21.0
+docker push 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11-openjdk-21.0-node
+docker push 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11.3-openjdk-21.0-node
+docker push 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11-openjdk-21.0-browsers
+docker push 166248964328.dkr.ecr.eu-west-1.amazonaws.com/cimg-clojure:1.11.3-openjdk-21.0-browsers
