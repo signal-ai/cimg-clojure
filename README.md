@@ -15,6 +15,30 @@
 `cimg/clojure` is a Docker image created by CircleCI with continuous integration builds in mind.
 Each tag contains a Clojure version, a JVM, and any binaries and tools that are required for builds to complete successfully in a CircleCI environment.
 
+## Fork status
+
+This is a fork by Signal AI intended for internal use.
+
+This contains the following changes:
+
+- Bump package versions (e.g. Leiningen)
+- Build JDK 21 images
+
+Images are currently only built/pushed locally
+
+Usage:
+
+1. Update `manifest` as required (e.g. add JDK version)
+2. Run ``
+3. Run `build-images.sh`
+4. Auth to ECR via `./ecr-login.sh`
+5. Push images `push-images.sh`
+
+### Future work
+
+- Build images on CI - this requires a modification of the [`circleci/cimg`](https://circleci.com/developer/orbs/orb/circleci/cimg-orb) orb
+- Support ARM images (should be simple once building on CI)
+
 ## Support Policy
 
 The CircleCI Docker Convenience Image support policy can be found on the [CircleCI docs](https://circleci.com/docs/convenience-images-support-policy) site. This policy outlines the release, update, and deprecation policy for CircleCI Docker Convenience Images.
