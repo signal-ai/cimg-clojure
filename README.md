@@ -17,6 +17,8 @@ Each tag contains a Clojure version, a JVM, and any binaries and tools that are 
 
 ## Fork status
 
+**ARCHIVED** This is no longer needed as CircleCI have started to update/suppport this image again
+
 This is a fork by Signal AI intended for internal use.
 
 This contains the following changes:
